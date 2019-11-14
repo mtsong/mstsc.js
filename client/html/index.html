@@ -33,8 +33,6 @@
 				vars[key] = value;
 			});
 
-			console.log(vars)
-
 			if ('ip' in vars)
 				connect(vars['ip'], vars['domain'], vars['user'], atob(vars['password']))
 		}
